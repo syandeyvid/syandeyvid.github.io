@@ -1,0 +1,64 @@
+body {
+    font-family: Cambria, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    background-image: url(Files/pics/boywithuke.jpg);
+}
+
+h1 {
+    color: royalblue;
+    font-family: Georgia;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+    width: auto;
+    transition: background-color 1s;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    color: white;
+    background-color: skyblue;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 1s, padding 1s; 
+}
+
+nav a:hover {
+    background-color: darkblue;
+    padding: 10px 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    height: 352px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    iframe {
+        width: 50%;
+    }
+}
