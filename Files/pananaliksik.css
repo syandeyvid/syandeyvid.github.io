@@ -15,14 +15,15 @@ body::after {
     background-image: url(pics/FCPC.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    opacity: 0.1; 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    opacity: 0.1;
     z-index: -1;
 }
 
 body > * {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 }
 
 
